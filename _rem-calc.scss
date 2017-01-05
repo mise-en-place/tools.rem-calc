@@ -44,11 +44,7 @@
         @if $x == auto or $x == inherit {
             $values: append($values, $x);
         } @else {
-            @if $support-ie8 {
-                $y: $x * 1px;
-            } @else {
-                $y: ($x / $context) * 1rem;
-            }
+            $y: ($x / $context) * 1rem;
 
             @if strip-units(abs($y)) == 0 {
                 $values: append($values, 0);
