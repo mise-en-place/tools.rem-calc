@@ -1,5 +1,5 @@
 {
-  "name": "@mise-en-place/tools.rem-calc",
+  "name": "tools.rem-calc",
   "version": "1.0.0",
   "description": "Rem Calc Tool",
   "main": "stylesheets/_rem-calc.scss",
