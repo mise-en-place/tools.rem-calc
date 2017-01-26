@@ -20,6 +20,6 @@
   "author": "Kind",
   "license": "MIT",
   "dependencies": {
-    "mep-tools.get-map-if-exists": "github:mise-en-place/tools.get-map-if-exists"
+    "mep-tools.map-get-if-exists": "github:mise-en-place/tools.map-get-if-exists"
   }
 }
