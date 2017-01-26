@@ -19,7 +19,7 @@
   },
   "author": "Kind",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "mep-tools.get-map-if-exists": "github:mise-en-place/tools.get-map-if-exists"
   }
 }
