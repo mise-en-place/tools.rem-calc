@@ -28,6 +28,8 @@
 // Returns: Rem value
 //
 
+@import "map-get-if-exists";
+
 @function rem-calc($target) {
 
     $max: length($target);

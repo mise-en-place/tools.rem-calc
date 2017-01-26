@@ -5,7 +5,7 @@
   "main": "stylesheets/_rem-calc.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "mep-rem-calc",
+    "name": "rem-calc",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
@@ -18,5 +18,8 @@
     "url": "https://github.com/mise-en-place/tools.rem-calc.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mep-tools.get-map-if-exists": "github:mise-en-place/tools.get-map-if-exists"
+  }
 }
