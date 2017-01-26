@@ -4,7 +4,6 @@
   "description": "Rem Calc Tool",
   "main": "stylesheets/_rem-calc.scss",
   "eyeglass": {
-    "sassDir": "stylesheets",
     "needs": "^1.0.0",
     "name": "tools.rem-calc",
     "exports": "eyeglass-exports.js"
