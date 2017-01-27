@@ -5,7 +5,6 @@
   "main": "stylesheets/_rem-calc.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "rem-calc",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
