@@ -1,10 +1,11 @@
 {
-  "name": "mep-tools.rem-calc",
+  "name": "mep.rem-calc",
   "version": "1.0.0",
   "description": "Rem Calc Tool",
   "main": "stylesheets/_rem-calc.scss",
   "eyeglass": {
-    "needs": "^1.0.0",
+    "needs": "*",
+    "sassDir": "stylesheets",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
