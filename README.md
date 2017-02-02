@@ -8,12 +8,12 @@
 --
 
 ### Packaging
-##### Naming Modules
+#### Naming Modules
 Modules should be named with the `mep-` prefix, followed by their full repo name, for example `mep-utilities.clearfix`
-##### Naming Stylesheets
+#### Naming Stylesheets
 Stylesheets should be named with the (singular) `type-` prefix, followed by their individual name, for example `_tool-base-spacing.scss`
 
-##### Conditions
+#### Conditions
 - Eyeglass aware modules must have the `eyeglass-module` keyword attached to them
 - The `main` path **must** match the top level module name, or the specificied eyeglass name (see code block below)
 
@@ -48,7 +48,7 @@ An example `package.json` should look something like this:
 --
 
 ### Eyeglassifying
-##### Structuring Modules
+#### Structuring Modules
 File structure for eyeglass modules should be as follows
 
 ```
@@ -60,7 +60,7 @@ tools.base-spacing
 ```
 
 
-##### Making Exportable
+#### Making Exportable
 
 To be exportable as an eyeglass mode, an `eyeglass-exports.js` file will be needed. It should consist of the following:
 ```
@@ -73,7 +73,7 @@ module.exports = function(eyeglass, sass) {
 }
 ```
 
-##### Eyeglass Inception
+#### Eyeglass Inception
 Most of our eyeglass modules require their own eyeglass based dependencies, for example, most utilities depend on their tool counterparts. These need to be defined in the `package.json` as dependencies. As a basic example, the `rem-calc` tool depends on the `type-config` tool being available, therefore it's required as a dependency as below:
 
 ```
