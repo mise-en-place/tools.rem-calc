@@ -1,5 +1,5 @@
 {
-  "name": "mep-tools.rem-calc",
+  "name": "@mise-en-place/tools.rem-calc",
   "version": "2.0.0",
   "description": "Rem Calc Tool",
   "main": "stylesheets/_tool-rem-calc.scss",
@@ -14,6 +14,6 @@
   "author": "Kind",
   "license": "MIT",
   "dependencies": {
-    "mep-tools.type-config": "github:mise-en-place/tools.type-config"
+    "@mise-en-place/type-config": "~3.0.0"
   }
 }
