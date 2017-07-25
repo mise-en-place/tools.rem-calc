@@ -1,6 +1,6 @@
 {
   "name": "@mise-en-place/tools.rem-calc",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Rem Calc Tool",
   "main": "stylesheets/_tool-rem-calc.scss",
   "keywords": [
