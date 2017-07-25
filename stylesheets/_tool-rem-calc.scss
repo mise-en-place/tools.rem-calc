@@ -28,7 +28,7 @@
 // Returns: Rem value
 //
 
-@import "~mep-tools.type-config";
+@import '~@mise-en-place/tools.type-config';
 
 @function rem-calc($target) {
 
